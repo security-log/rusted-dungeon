@@ -38,6 +38,6 @@ fn main() -> BError {
         .with_title("Rusted Dungeon")
         .with_fps_cap(30.0)
         .build()?;
-
+    // TODO: Add a player.
     main_loop(context, State::new())
 }
